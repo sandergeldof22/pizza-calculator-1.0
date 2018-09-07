@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h2>The Pizza Calculator</h2>
+</head>
+<script type="text/javascript">    														//sander geldof, pizza calculator
+
+window.alert("welkom op mijn pizza bestel site");
+
+const X = 9; //small pizza constante prijs
+const Y = 11; //medium pizza constante prijs
+const Z = 13; //large pizza contante prijs
+window.alert("op deze site hebben wij meerdere pizzagrootte, small, medium en large"); //verduidelijking voor op de website
+
+var smallpizza = prompt("Hoeveel small pizza ?"); //variabele van de kleine pizza, pop-up
+var mediumpizza = prompt("Hoeveel medium pizza ?"); //variabele van de medium pizza, pop-up
+var largepizza = prompt("Hoeveel large pizza ?"); //variabele van de large pizza, pop-up
+
+
+document.write("u heeft "+smallpizza+" small pizza besteld<br>"); //hoeveel small pizza's er besteld zijn
+document.write("u heeft "+mediumpizza+" medium pizza besteld<br>"); //hoeveel medium pizza's er besteld zijn
+document.write("u heeft "+largepizza+" large pizza besteld<br>"); //hoeveel large pizza's er besteld zijn
+
+var eindprijs = (X * smallpizza + Y * mediumpizza + Z * largepizza); //wiskundige formule die de totaalprijs berekend
+
+document.write("de totaalprijs bedraagd "+eindprijs+" euro"); 
+
+
+document.getElementById("demo").innerHTML = "";
+
+  
+
+</script>
+<body>
+</body>
+</html>
